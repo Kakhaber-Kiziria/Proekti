@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+#bg-image {
+	background-image: url("https://png.pngtree.com/png-vector/20220621/ourmid/pngtree-football-pitch-championship-white-soccer-vector-png-image_13938794.jpg");
+	width: 1535,5px;
+	height: 729px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+img {
+	width: 75px;
+	height: 150px;
+	animation-name: run;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+@keyframes run {
+	0% {
+		position: relative;
+		top: 300px;
+		left: 52px;
+	}
+	50% { 
+		position: relative;
+		top: 300px;
+		left: 1390px;
+	}
+	100% {
+		position: relative;
+		top: 300px;
+		left: 52px;
+	}
+}
